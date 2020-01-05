@@ -1,0 +1,46 @@
+body {
+  background: grey;
+}
+
+/* CONTAINER */
+.container .mon {
+  padding: 20px;
+  border: 2px red solid;
+}
+
+/* TYPES */
+.normal {}
+
+.fight {}
+
+.flying {}
+
+.poison {}
+
+.ground {}
+
+.rock {}
+
+.bug {}
+
+.ghost {}
+
+.steel {}
+
+.fire {}
+
+.water {}
+
+.grass {}
+
+.electric {}
+
+.psychic {}
+
+.ice {}
+
+.dragon {}
+
+.dark {}
+
+.fairy {}
