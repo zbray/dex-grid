@@ -1,18 +1,18 @@
-normal: #A8A878
-fight: #C03028
-flying: #A890F0
-poison: #A040A0
-ground: #E0C068
-rock: #B8A038
-bug: #A8B820
-ghost: #705898
-steel: #B8B8D0
-fire: #F08030
-water: #6890F0
-grass: #78C850
-electric: #F8D030
-psychic: #F85888
-ice: #98D8D8
-dragon: #7038F8
-dark: #705848
-fairy: #EE99AC
+normal: #A8A878 // rgb(168, 168, 120)
+fight: #C03028 // rgb(192, 48, 40)
+flying: #A890F0 // rgb(168, 144, 240)
+poison: #A040A0 // rgb(160, 64, 160)
+ground: #E0C068 // rgb(224, 192, 104)
+rock: #B8A038 // rgb(184, 160, 56)
+bug: #A8B820 // rgb(168, 184, 32)
+ghost: #705898 // rgb(112, 88, 152)
+steel: #B8B8D0 // rgb(184, 184, 208)
+fire: #F08030 // rgba(240, 128, 48)
+water: #6890F0 // rgb(104, 144, 240)
+grass: #78C850 // rgb(120, 200, 80)
+electric: #F8D030 // rgb(248, 208, 48)
+psychic: #F85888 // rgb(248, 88, 136)
+ice: #98D8D8 // rgb(152, 216, 216)
+dragon: #7038F8 // rgb(112, 56, 248)
+dark: #705848 // rgb(112, 88, 72)
+fairy: #EE99AC // rgb(238, 153, 172)
