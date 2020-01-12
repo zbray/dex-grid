@@ -1,7 +1,7 @@
 /* Colors */
 :root {
   --normal: #A8A878;
-  --fight: #C03028;
+  --fighting: #C03028;
   --flying: #A890F0;
   --poison: #A040A0;
   --ground: #E0C068;
@@ -49,8 +49,8 @@ body {
   background-color: var(--normal);
 }
 
-.fight {
-  background-color: var(--fight);
+.fighting {
+  background-color: var(--fighting);
 }
 
 .flying {
@@ -120,6 +120,114 @@ body {
 
 /* DUAL TYPES */
 
+.bug-grass {
+  background: linear-gradient(var(--grass) 0%, var(--bug)100%);
+}
+
+.bug-poison {
+  background: linear-gradient(var(--poison) 0%, var(--bug)100%);
+}
+
+.dragon-flying {
+  background: linear-gradient(var(--flying) 0%, var(--dragon)100%);
+}
+
+.electric-flying {
+  background: linear-gradient(var(--flying) 0%, var(--electric)100%);
+}
+
+.electric-steel {
+  background: linear-gradient(var(--steel) 0%, var(--electric)100%);
+}
+
+.ghost-poison {
+  background: linear-gradient(var(--poison) 0%, var(--ghost)100%);
+}
+
+.grass-psychic {
+  background: linear-gradient(var(--psychic) 0%, var(--grass)100%);
+}
+
+.ground-rock {
+  background: linear-gradient(var(--rock) 0%, var(--ground)100%);
+}
+
+.ice-flying {
+  background: linear-gradient(var(--flying) 0%, var(--ice)100%);
+}
+
+.ice-psychic {
+  background: linear-gradient(var(--psychic) 0%, var(--ice)100%);
+}
+
+.normal-fairy {
+  background: linear-gradient(var(--fairy) 0%, var(--normal)100%);
+}
+
+.bug-flying {
+  background: linear-gradient(var(--flying) 0%, var(--bug)100%);
+}
+
+.normal-flying {
+  background: linear-gradient(var(--flying) 0%, var(--normal)100%);
+}
+
+.poison-dark {
+  background: linear-gradient(var(--dark) 0%, var(--poison)100%);
+}
+
+.poison-flying {
+  background: linear-gradient(var(--flying) 0%, var(--poison)100%);
+}
+
+.poison-dark {
+  background: linear-gradient(var(--dark) 0%, var(--poison)100%);
+}
+
+.poison-flying {
+  background: linear-gradient(var(--flying) 0%, var(--poison)100%);
+}
+
+.poison-ground {
+  background: linear-gradient(var(--ground) 0%, var(--poison)100%);
+}
+
+.psychic-fairy {
+  background: linear-gradient(var(--fairy) 0%, var(--psychic)100%);
+}
+
+.rock-flying {
+  background: linear-gradient(var(--flying) 0%, var(--rock)100%);
+}
+
+.rock-ground {
+  background: linear-gradient(var(--ground) 0%, var(--rock)100%);
+}
+
+.rock-water {
+  background: linear-gradient(var(--water) 0%, var(--rock)100%);
+}
+
+.water-fighting {
+  background: linear-gradient(var(--fighting) 0%, var(--water)100%);
+}
+
+.water-flying {
+  background: linear-gradient(var(--flying) 0%, var(--water)100%);
+}
+
+.water-ice {
+  background: linear-gradient(var(--ice) 0%, var(--water)100%);
+}
+
+.water-poison {
+  background: linear-gradient(var(--poison) 0%, var(--water)100%);
+}
+
+.water-psychic {
+  background: linear-gradient(var(--psychic) 0%, var(--water)100%);
+}
+
 .grass-poison {
   background: linear-gradient(var(--poison) 0%, var(--grass)100%);
 }
@@ -129,5 +237,5 @@ body {
 }
 
 .bug-flying {
-  background: linear-gradient(var(--flying) 0%, var(--bug) 100%);
+  background: linear-gradient(var(--flying) 0%, var(--bug)100%);
 }
