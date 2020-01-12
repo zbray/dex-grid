@@ -1,6 +1,6 @@
 # dexGrid
 a Pokédex made with CSS Grid
-
+<!-- 
 Bulbasaur
 Ivysaur
 Venusaur
@@ -169,4 +169,4 @@ Dratini
 Dragonair
 Dragonite
 Mewtwo
-Mew
+Mew -->
