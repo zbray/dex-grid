@@ -1,3 +1,25 @@
+/* Colors */
+:root {
+  --normal: #A8A878;
+  --fight: #C03028;
+  --flying: #A890F0;
+  --poison: #A040A0;
+  --ground: #E0C068;
+  --rock: #B8A038;
+  --bug: #A8B820;
+  --ghost: #705898;
+  --steel: #B8B8D0;
+  --fire: #F08030;
+  --water: #6890F0;
+  --grass: #78C850;
+  --electric: #F8D030;
+  --psychic: #F85888;
+  --ice: #98D8D8;
+  --dragon: #7038F8;
+  --dark: #705848;
+  --fairy: #EE99AC;
+}
+
 body {
   background: grey;
 }
@@ -5,7 +27,6 @@ body {
 /* CONTAINER */
 .container {
   display: grid;
-  width: 400px;
   height: 500px;
 }
 
@@ -14,101 +35,100 @@ body {
   padding: 20px;
   margin: 10px;
   border: 2px red solid;
-  /* width: 200px; */
+  width: 180px;
   text-align: center;
+}
+
+.mon img {
+  height: 180px;
 }
 
 
 /* SINGLE TYPES*/
 .normal {
-  background-color:#A8A878;
-  /* background-color:rgb(168, 168, 120); */
+  background-color: var(--normal);
 }
 
 .fight {
-  background-color:#C03028;
-  /* background-color:rgb(192, 48, 40); */
+  background-color: var(--fight);
 }
 
 .flying {
-  background-color:#A890F0;
-  /* background-color:rgb(168, 144, 240); */
+  background-color: var(--flying);
 }
 
 .poison {
-  background-color:#A040A0;
-  /* background-color:rgb(160, 64, 160); */
+  background-color: var(--poison);
 }
 
 .ground {
-  background-color:#E0C068;
-  /* background-color:rgb(224, 192, 104); */
+  background-color: var(--ground);
 }
 
 .rock {
-  background-color:#B8A038;
-  /* background-color:rgb(184, 160, 56); */
+  background-color: var(--rock);
 
 }
 
 .bug {
-  background-color:#A8B820;
-  /* background-color:rgb(168, 184, 32); */
+  background-color: var(--bug);
 }
 
 .ghost {
-  background-color:#705898;
-  /* background-color:rgb(112, 88, 152); */
+  background-color: var(--ghost);
 }
 
 .steel {
-  background-color:#B8B8D0;
-  /* background-color:rgb(184, 184, 208); */
+  background-color: var(--steel);
 }
 
 .fire {
-  background-color:
-  /* background-color:rgb(240, 128, 48); */
+  background-color: var(--fire);
 }
 
 .water {
-  background-color:#6890F0;
-  /* background-color:rgb(104, 144, 240); */
+  background-color: var(--water);
 }
 
 .grass {
-  background-color:#78C850;
-  /* background-color:rgb(120, 200, 80); */
+  background-color: var(--grass);
 }
 
 .electric {
-  background-color:#F8D030;
-  /* background-color:rgb(248, 208, 48); */
+  background-color: var(--electric);
 }
 
 .psychic {
-  background-color:#F85888;
-  /* background-color:rgb(248, 88, 136); */
+  background-color: var(--psychic);
 }
 
 .ice {
-  background-color:#98D8D8;
-  /* background-color:rgb(152, 216, 216); */
+  background-color: var(--ice);
 }
 
 .dragon {
-  background-color:#7038F8;
-  /* background-color:rgb(112, 56, 248); */
+  background-color: var(--dragon);
 }
 
 .dark {
-  background-color:#705848;
-  /* background-color:rgb(112, 88, 72); */
+  background-color: var(--dark);
 }
 
 .fairy {
-  background-color:#EE99AC;
-  /* background-color:rgb(238, 153, 172); */
+  background-color: var(--fairy);
 }
 
 
+/* DUAL TYPES */
+
+.grass-poison {
+  background: linear-gradient(var(--poison) 0%, var(--grass)100%);
+}
+
+.fire-flying {
+  background: linear-gradient(var(--flying) 0%, var(--fire)100%);
+}
+
+.bug-flying {
+  background: linear-gradient(var(--flying) 0%, var(--bug) 100%);
+}
