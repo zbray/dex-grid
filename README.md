@@ -1,7 +1,6 @@
-# dexGrid
+# dexGrid 
 a Pokédex made with CSS Grid
-<!-- 
-Bulbasaur
+<!-- Bulbasaur
 Ivysaur
 Venusaur
 Charmander
@@ -20,20 +19,15 @@ Pidgey
 Pidgeotto
 Pidgeot
 Rattata
-Alolan Rattata
 Raticate
-Alolan Rattata
 Spearow
 Fearow
 Ekans
 Arbok
 Pikachu
 Raichu
-Alolan Raichu
 Sandshrew
-Alolan Sandshrew
 Sandslash
-Alolan Sandslash
 Nidoran♀
 Nidorina
 Nidoqueen
@@ -43,9 +37,7 @@ Nidoking
 Clefairy
 Clefable
 Vulpix
-Alolan Vulpix
 Ninetales
-Alolan Ninetales
 Jigglypuff
 Wigglytuff
 Zubat
@@ -58,13 +50,9 @@ Parasect
 Venonat
 Venomoth
 Diglett
-Alolan Diglett
 Dugtrio
-Alolan Dugtrio
 Meowth
-Alolan Meowth
 Persian
-Alolan Persian
 Psyduck
 Golduck
 Mankey
@@ -86,11 +74,8 @@ Victreebel
 Tentacool
 Tentacruel
 Geodude
-Alolan Geodude
 Graveler
-Alolan Graveler
 Golem
-Alolan Golem
 Ponyta
 Rapidash
 Slowpoke
@@ -103,9 +88,7 @@ Dodrio
 Seel
 Dewgong
 Grimer
-Alolan Grimer
 Muk
-Alolan Muk
 Shellder
 Cloyster
 Gastly
@@ -120,10 +103,8 @@ Voltorb
 Electrode
 Exeggcute
 Exeggutor
-Alolan Exeggutor
 Cubone
 Marowak
-Alolan Marowak
 Hitmonlee
 Hitmonchan
 Lickitung
