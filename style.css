@@ -55,12 +55,6 @@ body {
 }
 
 
-/* Udemy MIN MAX */
-/* .container {
-  grid-template-columns: repeat(auto-fill, minmax());
-} */
-
-
 /* STATES */
 .mon:hover {
   border:red 1px solid;
