@@ -27,20 +27,21 @@ body {
 
 /* BLOCK ELEMENTS */
 .container {
-  width:90%;
+  /* width:90%; */
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   box-sizing: border-box;
   /* code below centers the cards on the axis */
   margin: 0 auto;
   justify-content: center;
+  justify-self: center;
 }
 
 
 .mon {
   width: 180px;
   height: 180px;
-  padding: 20px;
+  padding: 25px;
   margin: 10px;
   border: 1px white solid;
   justify-content: center;
@@ -49,7 +50,6 @@ body {
   border-radius:5px;
 }
 
-/* code below is not affecting appearance - investigate */
 .mon img {
   height: 180px;
 }
@@ -131,5 +131,5 @@ body {
   }
 
   @media only screen and (max-width:1015px){
-    
+
   }
