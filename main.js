@@ -1,4 +1,5 @@
-const pokemon = [
+//Pokémon array
+pokemon = [
   {
     natdex: "001",
     name: "Bulbasaur",
@@ -16,29 +17,29 @@ const pokemon = [
   {
     natdex: "003",
     name: "Venusaur",
-    type1: "",
-    type2: "",
+    type1: "grass",
+    type2: "poison",
     imagesrc: "assets/gen-i/003Venusaur.png",
   },
   {
     natdex: "004",
     name: "Charmander",
-    type1: "",
+    type1: "fire",
     type2: "",
     imagesrc: "assets/gen-i/004Charmander.png",
   },
   {
     natdex: "005",
     name: "Charmeleon",
-    type1: "",
+    type1: "fire",
     type2: "",
     imagesrc: "assets/gen-i/005Charmeleon.png",
   },
   {
     natdex: "006",
     name: "Charizard",
-    type1: "",
-    type2: "",
+    type1: "fire",
+    type2: "flying",
     imagesrc: "assets/gen-i/006Charizard.png",
   },
   {
@@ -99,8 +100,25 @@ const pokemon = [
   },
 ];
 
-for (var i = 0; i < pokemon.length; i++) {
-  console.log(pokemon[i].natdex)
+//Background color geneator
+function getBackground(type1, type2) {
+  if (!type2) {
+    return `var(--${type1})`;
+  }
+  return `linear-gradient(var(--${type1}) 0%, var(--${type2}) 100%)`;
 }
+
+// Dex card generators
+
+const dexCard = document.getElementById("dex");
+
+pokemon.forEach((p) => {
+  const bg = getBackground
+});
+
+//old generator work
+// for (var i = 0; i < pokemon.length; i++) {
+//   console.log(pokemon[i].natdex)
+// }
 
 /* <div class="mon grass-poison"><img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur"><br>001 Bulbasaur</div> */
