@@ -45,43 +45,43 @@ pokemon = [
   {
     natdex: "007",
     name: "Squirtle",
-    type1: "",
+    type1: "water",
     type2: "",
     imagesrc: "assets/gen-i/007Squirtle.png",
   },
   {
     natdex: "008",
     name: "Wartortle",
-    type1: "",
+    type1: "water",
     type2: "",
     imagesrc: "assets/gen-i/008Wartortle.png",
   },
   {
     natdex: "009",
     name: "Blastoise",
-    type1: "",
+    type1: "water",
     type2: "",
     imagesrc: "assets/gen-i/009Blastoise.png",
   },
   {
     natdex: "010",
     name: "Caterpie",
-    type1: "",
+    type1: "bug",
     type2: "",
     imagesrc: "assets/gen-i/010Caterpie.png",
   },
   {
     natdex: "011",
     name: "Metapod",
-    type1: "",
+    type1: "bug",
     type2: "",
     imagesrc: "assets/gen-i/011Metapod.png",
   },
   {
     natdex: "012",
     name: "Butterfree",
-    type1: "",
-    type2: "",
+    type1: "bug",
+    type2: "flying",
     imagesrc: "assets/gen-i/012Butterfree.png",
   },
   {
@@ -110,7 +110,7 @@ function getBackground(type1, type2) {
 
 // Dex card generators
 
-const dexCard = document.getElementById("dex");
+const dexContainer = document.getElementById("dex");
 
 pokemon.forEach((p) => {
   const bg = getBackground(p.type1, p.type2);
@@ -120,7 +120,7 @@ pokemon.forEach((p) => {
   card.style.background = bg;
 
   card.innerHTML = `
-    <img src="${p.imagesrc}" alt =${p.name}">
+    <img src="${p.imagesrc}" alt ="${p.name}">
     <br>${p.natdex} ${p.name}
     `;
 

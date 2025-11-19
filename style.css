@@ -117,7 +117,7 @@ body {
 }
 
 /* DUAL TYPES */
-
+/* 
 .bug-grass {
   background: linear-gradient(var(--grass) 0%, var(--bug) 100%);
 }
@@ -198,7 +198,7 @@ body {
 }
 .fire-flying {
   background: linear-gradient(var(--flying) 0%, var(--fire) 100%);
-}
+} */
 
 /* MEDIA QUERIES */
 
