@@ -1,5 +1,25 @@
-# dexGrid 
-a Pokédex made with CSS Grid
+# dexGrid
+
+A Pokédex made with CSS Grid
+
+## Roadmap
+
+### MVP
+
+151 cards showing sillhouette of the first 151 Pokémon, their number, name, and a background of colors corresponding to their single typing or a gradient of their dual typing, using responsive CSS.
+
+### Current Updates
+
+- JS function to dynamically generate each card element and assign CSS values for dual typing.
+
+### Future Updates
+
+- Full current Pokédex including forms and variants
+- Click event to reveal image when caught
+- Move data from current JS array to SQL
+- Add much more data (type, stats, moves, etc)
+- Login/auth functionality so users can save data and keep track
+
 <!-- Bulbasaur
 Ivysaur
 Venusaur
