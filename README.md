@@ -19,7 +19,8 @@ A Pokédex made with CSS Grid
 - Move data from current JS array to SQL
 - Add much more data (type, stats, moves, etc)
 - Login/auth functionality so users can save data and keep track
-
+- reconstruct in React
+- 
 <!-- Bulbasaur
 Ivysaur
 Venusaur
