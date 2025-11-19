@@ -122,10 +122,10 @@ body {
   background: linear-gradient(var(--grass) 0%, var(--bug) 100%);
 }
 .bug-poison {
-  background: linear-gradient(var(--poison) 0%, var(--bug) 100%);
+  background: linear-gradient(var(--bug) 0%, var(--poison) 100%);
 }
 .dragon-flying {
-  background: linear-gradient(var(--flying) 0%, var(--dragon) 100%);
+  background: linear-gradient(var(--dragon) 0%, var(--flying) 100%);
 }
 .electric-flying {
   background: linear-gradient(var(--flying) 0%, var(--electric) 100%);
@@ -156,12 +156,6 @@ body {
 }
 .normal-flying {
   background: linear-gradient(var(--flying) 0%, var(--normal) 100%);
-}
-.poison-dark {
-  background: linear-gradient(var(--dark) 0%, var(--poison) 100%);
-}
-.poison-flying {
-  background: linear-gradient(var(--flying) 0%, var(--poison) 100%);
 }
 .poison-dark {
   background: linear-gradient(var(--dark) 0%, var(--poison) 100%);
@@ -205,9 +199,6 @@ body {
 .fire-flying {
   background: linear-gradient(var(--flying) 0%, var(--fire) 100%);
 }
-.bug-flying {
-  background: linear-gradient(var(--flying) 0%, var(--bug) 100%);
-}
 
 /* MEDIA QUERIES */
 
@@ -224,4 +215,3 @@ img {
   filter: grayscale(100%) brightness(0);
   opacity: 0.6;
 }
-

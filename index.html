@@ -1,170 +1,534 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gen I</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+  </head>
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Gen I</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-  <script src='main.js'></script>
-</head>
-
-<body>
-
-  <div class="container">
-    <div class="mon grass-poison"><img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur"><br>001 Bulbasaur</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/002Ivysaur.png" alt="Ivysaur"><br>002 Ivysaur</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/003Venusaur.png" alt="Venusaur"><br>003 Venusaur</div>
-    <div class="mon fire"><img src="assets/gen-i/004Charmander.png" alt="Charmander"><br>004 Charmander</div>
-    <div class="mon fire"><img src="assets/gen-i/005Charmeleon.png" alt="Ivysaur"><br>005 Charmeleon</div>
-    <div class="mon fire-flying"><img src="assets/gen-i/006Charizard.png" alt="Venusaur"><br>006 Charizard</div>
-    <div class="mon water"><img src="assets/gen-i/007Squirtle.png" alt="Squirtle"><br>007 Squirtle</div>
-    <div class="mon water"><img src="assets/gen-i/008Wartortle.png" alt="Wartortle"><br>008 Wartortle</div>
-    <div class="mon water"><img src="assets/gen-i/009Blastoise.png" alt="Blastoise"><br>009 Blastoise</div>
-    <div class="mon bug"><img src="assets/gen-i/010Caterpie.png" alt="Caterpie"><br>010 Caterpie</div>
-    <div class="mon bug"><img src="assets/gen-i/011Metapod.png" alt="Metapod"><br>011 Metapod</div>
-    <div class="mon bug-flying"><img src="assets/gen-i/012Butterfree.png" alt="Butterfree"><br>012 Butterfree</div>
-    <div class="mon water"><img src="assets/gen-i/013Weedle.png" alt="Weedle"><br>013 Weedle</div>
-    <div class="mon bug-poison"><img src="assets/gen-i/014Kakuna.png" alt="Kakuna"><br>014 Kakuna</div>
-    <div class="mon bug-poison"><img src="assets/gen-i/015Beedrill.png" alt="Beedrill"><br>015 Beedrill</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/016Pidgey.png" alt="Pidgey"><br>016 Pidgey</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/017Pidgeotto.png" alt="Pidgeotto"><br>017 Pidgeotto</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/018Pidgeot.png" alt="Pidgeot"><br>018 Pidgeot</div>
-    <div class="mon normal"><img src="assets/gen-i/019Rattata.png" alt="Rattata"><br>019 Rattata</div>
-    <div class="mon normal"><img src="assets/gen-i/020Raticate.png" alt="Raticate"><br>020 Raticate</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/021Spearow.png" alt="Spearow"><br>021 Spearow</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/022Fearow.png" alt="Fearow"><br>022 Fearow</div>
-    <div class="mon poison"><img src="assets/gen-i/023Ekans.png" alt="Ekans"><br>023 Ekans</div>
-    <div class="mon poison"><img src="assets/gen-i/024Arbok.png" alt="Arbok"><br>024 Arbok</div>
-    <div class="mon electric"><img src="assets/gen-i/025Pikachu.png" alt="Pikachu"><br>025 Pikachu</div>
-    <div class="mon electric"><img src="assets/gen-i/026Raichu.png" alt="Raichu"><br>026 Raichu</div>
-    <div class="mon ground"><img src="assets/gen-i/027Sandshrew.png" alt="Sandshrew"><br>027 Sandshrew</div>
-    <div class="mon ground"><img src="assets/gen-i/028Sandslash.png" alt="Sandslash"><br>028 Sandslash</div>
-    <div class="mon poison"><img src="assets/gen-i/029Nidoran.png" alt="Nidoran♀"><br>029 Nidoran♀</div>
-    <div class="mon poison"><img src="assets/gen-i/030Nidorina.png" alt="Nidorina"><br>030 Nidorina</div>
-    <div class="mon poison-ground"><img src="assets/gen-i/031Nidoqueen.png" alt="Nidoqueen"><br>031 Nidoqueen</div>
-    <div class="mon poison"><img src="assets/gen-i/032Nidoran.png" alt="Nidoran♂"><br>032 Nidoran♂</div>
-    <div class="mon poison"><img src="assets/gen-i/033Nidorino.png" alt="Nidorino"><br>033 Nidorino</div>
-    <div class="mon poison-ground"><img src="assets/gen-i/034Nidoking.png" alt="Nidoking"><br>034 Nidoking</div>
-    <div class="mon fairy"><img src="assets/gen-i/035Clefairy.png" alt="Clefairy"><br>035 Clefairy</div>
-    <div class="mon fairy"><img src="assets/gen-i/036Clefable.png" alt="Clefable"><br>036 Clefable</div>
-    <div class="mon fire"><img src="assets/gen-i/037Vulpix.png" alt="Vulpix"><br>037 Vulpix</div>
-    <div class="mon fire"><img src="assets/gen-i/038Ninetales.png" alt="Ninetales"><br>038 Ninetales</div>
-    <div class="mon normal-fairy"><img src="assets/gen-i/039Jigglypuff.png" alt="Jigglypuff"><br>039 Jigglypuff</div>
-    <div class="mon normal-fairy"><img src="assets/gen-i/040Wigglytuff.png" alt="Wigglytuff"><br>040 Wigglytuff</div>
-    <div class="mon poison-flying"><img src="assets/gen-i/041Zubat.png" alt="Zubat"><br>041 Zubat</div>
-    <div class="mon poison-flying"><img src="assets/gen-i/042Golbat.png" alt="Golbat"><br>042 Golbat</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/043Oddish.png" alt="Oddish"><br>043 Oddish</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/044Gloom.png" alt="Gloom"><br>044 Gloom</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/045Vileplume.png" alt="Vileplume"><br>045 VIleplume</div>
-    <div class="mon bug-grass"><img src="assets/gen-i/046Paras.png" alt="Paras"><br>046 Paras</div>
-    <div class="mon bug-grass"><img src="assets/gen-i/047Parasect.png" alt="Parasect"><br>047 Parasect</div>
-    <div class="mon bug-poison"><img src="assets/gen-i/048Venonat.png" alt="Venonat"><br>048 Venonat</div>
-    <div class="mon bug-poison"><img src="assets/gen-i/049Venomoth.png" alt="Venomoth"><br>049 Venomoth</div>
-    <div class="mon ground"><img src="assets/gen-i/050Diglett.png" alt="Diglett"><br>050 Diglett</div>
-    <div class="mon ground"><img src="assets/gen-i/051Dugtrio.png" alt="Dugtrio"><br>051 Dugtrio</div>
-    <div class="mon normal"><img src="assets/gen-i/052Meowth.png" alt="Meowth"><br>052 Meowth</div>
-    <div class="mon normal"><img src="assets/gen-i/053Persian.png" alt="Persian"><br>053 Persian</div>
-    <div class="mon water"><img src="assets/gen-i/054Psyduck.png" alt="Psyduck"><br>054 Psyduck</div>
-    <div class="mon water"><img src="assets/gen-i/055Golduck.png" alt="Golduck"><br>055 Golduck</div>
-    <div class="mon fighting"><img src="assets/gen-i/056Mankey.png" alt="Mankey"><br>056 Mankey</div>
-    <div class="mon fighting"><img src="assets/gen-i/057Primeape.png" alt="Primeape"><br>057 Primeape</div>
-    <div class="mon fire"><img src="assets/gen-i/058Growlithe.png" alt="Growlithe"><br>058 Growlithe</div>
-    <div class="mon fire"><img src="assets/gen-i/059Arcanine.png" alt="Arcanine"><br>059 Arcanine</div>
-    <div class="mon water"><img src="assets/gen-i/060Poliwag.png" alt="Poliwag"><br>060 Poliwag</div>
-    <div class="mon water"><img src="assets/gen-i/061Poliwhirl.png" alt="Poliwhirl"><br>061 Poliwhirl</div>
-    <div class="mon water-fighting"><img src="assets/gen-i/062Poliwrath.png" alt="Poliwrath"><br>062 Poliwrath</div>
-    <div class="mon psychic"><img src="assets/gen-i/063Abra.png" alt="Abra"><br>063 Abra</div>
-    <div class="mon psychic"><img src="assets/gen-i/064Kadabra.png" alt="Kadabra"><br>064 Kadabra</div>
-    <div class="mon psychic"><img src="assets/gen-i/065Alakazam.png" alt="Alakazam"><br>065 Alakazam</div>
-    <div class="mon fighting"><img src="assets/gen-i/066Machop.png" alt="Machop"><br>066 Machop</div>
-    <div class="mon fighting"><img src="assets/gen-i/067Machoke.png" alt="Machoke"><br>067 Machoke</div>
-    <div class="mon fighting"><img src="assets/gen-i/068Machamp.png" alt="Machamp"><br>068 Machamp</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/069Bellsprout.png" alt="Bellsprout"><br>069 Bellsprout</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/070Weepinbell.png" alt="Weepinbell"><br>070 Weepinbell</div>
-    <div class="mon grass-poison"><img src="assets/gen-i/071Victreebel.png" alt="Victreebel"><br>071 Victreebel</div>
-    <div class="mon water-poison"><img src="assets/gen-i/072Tentacool.png" alt="Tentacool"><br>072 Tentacool</div>
-    <div class="mon water-poison"><img src="assets/gen-i/073Tentacruel.png" alt="Tentacruel"><br>073 Tentacruel</div>
-    <div class="mon rock-ground"><img src="assets/gen-i/074Geodude.png" alt="Geodude"><br>074 Geodude</div>
-    <div class="mon rock-ground"><img src="assets/gen-i/075Graveler.png" alt="Graveler"><br>075 Graveler</div>
-    <div class="mon rock-ground"><img src="assets/gen-i/076Golem.png" alt="Golem"><br>076 Golem</div>
-    <div class="mon fire"><img src="assets/gen-i/077Ponyta.png" alt="Ponyta"><br>077 Ponyta</div>
-    <div class="mon fire"><img src="assets/gen-i/078Rapidash.png" alt="Rapidash"><br>078 Rapidash</div>
-    <div class="mon water-psychic"><img src="assets/gen-i/079Slowpoke.png" alt="Slowpoke"><br>079 Slowpoke</div>
-    <div class="mon water-psychic"><img src="assets/gen-i/080Slowbro.png" alt="Slowbro"><br>080 Slowbro</div>
-    <div class="mon electric-steel"><img src="assets/gen-i/081Magnemite.png" alt="Magnemite"><br>081 Magnemite</div>
-    <div class="mon electric-steel"><img src="assets/gen-i/082Magneton.png" alt="Magneton"><br>082 Magneton</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/083Farfetch'd.png" alt="Farfetch'd"><br>083 Farfetch'd</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/084Doduo.png" alt="Doduo"><br>084 Doduo</div>
-    <div class="mon normal-flying"><img src="assets/gen-i/085Dodrio.png" alt="Dodrio"><br>085 Dodrio</div>
-    <div class="mon water"><img src="assets/gen-i/086Seel.png" alt="Seel"><br>086 Seel</div>
-    <div class="mon water-ice"><img src="assets/gen-i/087Dewgong.png" alt="Dewgong"><br>087 Dewgong</div>
-    <div class="mon poison"><img src="assets/gen-i/088Grimer.png" alt="Grimer"><br>088 Grimer</div>
-    <div class="mon poison-dark"><img src="assets/gen-i/089Muk.png" alt="Muk"><br>089 Muk</div>
-    <div class="mon water"><img src="assets/gen-i/090Shellder.png" alt="Shellder"><br>090 Shellder</div>
-    <div class="mon water-ice"><img src="assets/gen-i/091Cloyster.png" alt="Cloyster"><br>091 Cloyster</div>
-    <div class="mon ghost-poison"><img src="assets/gen-i/092Gastly.png" alt="Gastly"><br>092 Gastly</div>
-    <div class="mon ghost-poison"><img src="assets/gen-i/093Haunter.png" alt="Haunter"><br>093 Haunter</div>
-    <div class="mon ghost-poison"><img src="assets/gen-i/094Gengar.png" alt="Gengar"><br>094 Gengar</div>
-    <div class="mon rock-ground"><img src="assets/gen-i/095Onix.png" alt="Onix"><br>095 Onix</div>
-    <div class="mon psychic"><img src="assets/gen-i/096Drowzee.png" alt="Drowzee"><br>096 Drowzee</div>
-    <div class="mon psychic"><img src="assets/gen-i/097Hypno.png" alt="Hypno"><br>097 Hypno</div>
-    <div class="mon water"><img src="assets/gen-i/098Krabby.png" alt="Krabby"><br>098 Krabby</div>
-    <div class="mon water"><img src="assets/gen-i/099Kingler.png" alt="Kingler"><br>099 Kingler</div>
-    <div class="mon electric"><img src="assets/gen-i/100Voltorb.png" alt="Voltorb"><br>100 Voltorb</div>
-    <div class="mon electric"><img src="assets/gen-i/101Electrode.png" alt="Electrode"><br>101 Electrode</div>
-    <div class="mon grass-psychic"><img src="assets/gen-i/102Exeggcute.png" alt="Exeggcute"><br>102 Exeggcute</div>
-    <div class="mon grass-psychic"><img src="assets/gen-i/103Exeggutor.png" alt="Exeggutor"><br>103 Exeggutor</div>
-    <div class="mon ground"><img src="assets/gen-i/104Cubone.png" alt="Cubone"><br>104 Cubone</div>
-    <div class="mon ground"><img src="assets/gen-i/105Marowak.png" alt="Marowak"><br>105 Marowak</div>
-    <div class="mon fighting"><img src="assets/gen-i/106Hitmonlee.png" alt="Hitmonlee"><br>106 Hitmonlee</div>
-    <div class="mon fighting"><img src="assets/gen-i/107Hitmonchan.png" alt="Hitmonchan"><br>107 Hitmonchan</div>
-    <div class="mon normal"><img src="assets/gen-i/108Lickitung.png" alt="Lickitung"><br>108 Lickitung</div>
-    <div class="mon poison"><img src="assets/gen-i/109Koffing.png" alt="Koffing"><br>109 Koffing</div>
-    <div class="mon poison"><img src="assets/gen-i/110Weezing.png" alt="Weezing"><br>110 Weezing</div>
-    <div class="mon ground-rock"><img src="assets/gen-i/111Rhyhorn.png" alt="Rhyhorn"><br>111 Rhyhorn</div>
-    <div class="mon ground-rock"><img src="assets/gen-i/112Rhydon.png" alt="Rhydon"><br>112 Rhydon</div>
-    <div class="mon normal"><img src="assets/gen-i/113Chansey.png" alt="Chansey"><br>113 Chansey</div>
-    <div class="mon grass"><img src="assets/gen-i/114Tangela.png" alt="Tangela"><br>114 Tangela</div>
-    <div class="mon normal"><img src="assets/gen-i/115Kangaskhan.png" alt="Kangaskhan"><br>115 Kangaskhan</div>
-    <div class="mon water"><img src="assets/gen-i/116Horsea.png" alt="Horsea"><br>116 Horsea</div>
-    <div class="mon water"><img src="assets/gen-i/117Seadra.png" alt="Seadra"><br>117 Seadra</div>
-    <div class="mon water"><img src="assets/gen-i/118Goldeen.png" alt="Goldeen"><br>118 Goldeen</div>
-    <div class="mon water"><img src="assets/gen-i/119Seaking.png" alt="Seaking"><br>119 Seaking</div>
-    <div class="mon water"><img src="assets/gen-i/120Staryu.png" alt="Staryu"><br>120 Staryu</div>
-    <div class="mon water-psychic"><img src="assets/gen-i/121Starmie.png" alt="Starmie"><br>121 Starmie</div>
-    <div class="mon psychic-fairy"><img src="assets/gen-i/122Mr._Mime.png" alt="Mr. Mime"><br>122 Mr. Mime</div>
-    <div class="mon bug-flying"><img src="assets/gen-i/123Scyther.png" alt="Scyther"><br>123 Scyther</div>
-    <div class="mon ice-psychic"><img src="assets/gen-i/124Jynx.png" alt="Jynx"><br>124 Jynx</div>
-    <div class="mon electric"><img src="assets/gen-i/125Electabuzz.png" alt="Electabuzz"><br>125 Electabuzz</div>
-    <div class="mon fire"><img src="assets/gen-i/126Magmar.png" alt="Magmar"><br>126 Magmar</div>
-    <div class="mon bug"><img src="assets/gen-i/127Pinsir.png" alt="Pinsir"><br>127 Pinsir</div>
-    <div class="mon normal"><img src="assets/gen-i/128Tauros.png" alt="Tauros"><br>128 Tauros</div>
-    <div class="mon water"><img src="assets/gen-i/129Magikarp.png" alt="Magikarp"><br>129 Magikarp</div>
-    <div class="mon water-flying"><img src="assets/gen-i/130Gyarados.png" alt="Gyarados"><br>130 Gyarados</div>
-    <div class="mon water-ice"><img src="assets/gen-i/131Lapras.png" alt="Lapras"><br>131 Lapras</div>
-    <div class="mon normal"><img src="assets/gen-i/132Ditto.png" alt="Ditto"><br>132 Ditto</div>
-    <div class="mon normal"><img src="assets/gen-i/133Eevee.png" alt="Eevee"><br>133 Eevee</div>
-    <div class="mon water"><img src="assets/gen-i/134Vaporeon.png" alt="Vaporeon"><br>134 Vaporeon</div>
-    <div class="mon electric"><img src="assets/gen-i/135Jolteon.png" alt="Jolteon"><br>135 Jolteon</div>
-    <div class="mon fire"><img src="assets/gen-i/136Flareon.png" alt="Flareon"><br>136 Flareon</div>
-    <div class="mon normal"><img src="assets/gen-i/137Porygon.png" alt="Porygon"><br>137 Porygon</div>
-    <div class="mon rock-water"><img src="assets/gen-i/138Omanyte.png" alt="Omanyte"><br>138 Omanyte</div>
-    <div class="mon rock-water"><img src="assets/gen-i/139Omastar.png" alt="Omastar"><br>139 Omastar</div>
-    <div class="mon rock-water"><img src="assets/gen-i/140Kabuto.png" alt="Kabuto"><br>140 Kabuto</div>
-    <div class="mon rock-water"><img src="assets/gen-i/141Kabutops.png" alt="Kabutops"><br>141 Kabutops</div>
-    <div class="mon rock-flying"><img src="assets/gen-i/142Aerodactyl.png" alt="Aerodactyl"><br>142 Aerodactyl</div>
-    <div class="mon normal"><img src="assets/gen-i/143Snorlax.png" alt="Snorlax"><br>143 Snorlax</div>
-    <div class="mon ice-flying"><img src="assets/gen-i/144Articuno.png" alt="Articuno"><br>144 Articuno</div>
-    <div class="mon electric-flying"><img src="assets/gen-i/145Zapdos.png" alt="Zapdos"><br>145 Zapdos</div>
-    <div class="mon fire-flying"><img src="assets/gen-i/146Moltres.png" alt="Moltres"><br>146 Moltres</div>
-    <div class="mon dragon"><img src="assets/gen-i/147Dratini.png" alt="Dratini"><br>147 Dratini</div>
-    <div class="mon dragon"><img src="assets/gen-i/148Dragonair.png" alt="Dragonair"><br>148 Dragonair</div>
-    <div class="mon dragon-flying"><img src="assets/gen-i/149Dragonite.png" alt="Dragonite"><br>149 Dragonite</div>
-    <div class="mon psychic"><img src="assets/gen-i/150Mewtwo.png" alt="Mewtwo"><br>150 Mewtwo</div>
-    <div class="mon psychic"><img src="assets/gen-i/151Mew.png" alt="Mew"><br>151 Mew</div>
-  </div>
-</body>
-
+  <body>
+    <div class="container">
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur" /><br />001
+        Bulbasaur
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/002Ivysaur.png" alt="Ivysaur" /><br />002 Ivysaur
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/003Venusaur.png" alt="Venusaur" /><br />003
+        Venusaur
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/004Charmander.png" alt="Charmander" /><br />004
+        Charmander
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/005Charmeleon.png" alt="Charmeleon" /><br />005
+        Charmeleon
+      </div>
+      <div class="mon fire-flying">
+        <img src="assets/gen-i/006Charizard.png" alt="Charizard" /><br />006
+        Charizard
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/007Squirtle.png" alt="Squirtle" /><br />007
+        Squirtle
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/008Wartortle.png" alt="Wartortle" /><br />008
+        Wartortle
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/009Blastoise.png" alt="Blastoise" /><br />009
+        Blastoise
+      </div>
+      <div class="mon bug">
+        <img src="assets/gen-i/010Caterpie.png" alt="Caterpie" /><br />010
+        Caterpie
+      </div>
+      <div class="mon bug">
+        <img src="assets/gen-i/011Metapod.png" alt="Metapod" /><br />011 Metapod
+      </div>
+      <div class="mon bug-flying">
+        <img src="assets/gen-i/012Butterfree.png" alt="Butterfree" /><br />012
+        Butterfree
+      </div>
+      <div class="mon bug-poison">
+        <img src="assets/gen-i/013Weedle.png" alt="Weedle" /><br />013 Weedle
+      </div>
+      <div class="mon bug-poison">
+        <img src="assets/gen-i/014Kakuna.png" alt="Kakuna" /><br />014 Kakuna
+      </div>
+      <div class="mon bug-poison">
+        <img src="assets/gen-i/015Beedrill.png" alt="Beedrill" /><br />015
+        Beedrill
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/016Pidgey.png" alt="Pidgey" /><br />016 Pidgey
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/017Pidgeotto.png" alt="Pidgeotto" /><br />017
+        Pidgeotto
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/018Pidgeot.png" alt="Pidgeot" /><br />018 Pidgeot
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/019Rattata.png" alt="Rattata" /><br />019 Rattata
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/020Raticate.png" alt="Raticate" /><br />020
+        Raticate
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/021Spearow.png" alt="Spearow" /><br />021 Spearow
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/022Fearow.png" alt="Fearow" /><br />022 Fearow
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/023Ekans.png" alt="Ekans" /><br />023 Ekans
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/024Arbok.png" alt="Arbok" /><br />024 Arbok
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/025Pikachu.png" alt="Pikachu" /><br />025 Pikachu
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/026Raichu.png" alt="Raichu" /><br />026 Raichu
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/027Sandshrew.png" alt="Sandshrew" /><br />027
+        Sandshrew
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/028Sandslash.png" alt="Sandslash" /><br />028
+        Sandslash
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/029Nidoran.png" alt="Nidoran♀" /><br />029
+        Nidoran♀
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/030Nidorina.png" alt="Nidorina" /><br />030
+        Nidorina
+      </div>
+      <div class="mon poison-ground">
+        <img src="assets/gen-i/031Nidoqueen.png" alt="Nidoqueen" /><br />031
+        Nidoqueen
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/032Nidoran.png" alt="Nidoran♂" /><br />032
+        Nidoran♂
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/033Nidorino.png" alt="Nidorino" /><br />033
+        Nidorino
+      </div>
+      <div class="mon poison-ground">
+        <img src="assets/gen-i/034Nidoking.png" alt="Nidoking" /><br />034
+        Nidoking
+      </div>
+      <div class="mon fairy">
+        <img src="assets/gen-i/035Clefairy.png" alt="Clefairy" /><br />035
+        Clefairy
+      </div>
+      <div class="mon fairy">
+        <img src="assets/gen-i/036Clefable.png" alt="Clefable" /><br />036
+        Clefable
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/037Vulpix.png" alt="Vulpix" /><br />037 Vulpix
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/038Ninetales.png" alt="Ninetales" /><br />038
+        Ninetales
+      </div>
+      <div class="mon normal-fairy">
+        <img src="assets/gen-i/039Jigglypuff.png" alt="Jigglypuff" /><br />039
+        Jigglypuff
+      </div>
+      <div class="mon normal-fairy">
+        <img src="assets/gen-i/040Wigglytuff.png" alt="Wigglytuff" /><br />040
+        Wigglytuff
+      </div>
+      <div class="mon poison-flying">
+        <img src="assets/gen-i/041Zubat.png" alt="Zubat" /><br />041 Zubat
+      </div>
+      <div class="mon poison-flying">
+        <img src="assets/gen-i/042Golbat.png" alt="Golbat" /><br />042 Golbat
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/043Oddish.png" alt="Oddish" /><br />043 Oddish
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/044Gloom.png" alt="Gloom" /><br />044 Gloom
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/045Vileplume.png" alt="Vileplume" /><br />045
+        Vileplume
+      </div>
+      <div class="mon bug-grass">
+        <img src="assets/gen-i/046Paras.png" alt="Paras" /><br />046 Paras
+      </div>
+      <div class="mon bug-grass">
+        <img src="assets/gen-i/047Parasect.png" alt="Parasect" /><br />047
+        Parasect
+      </div>
+      <div class="mon bug-poison">
+        <img src="assets/gen-i/048Venonat.png" alt="Venonat" /><br />048 Venonat
+      </div>
+      <div class="mon bug-poison">
+        <img src="assets/gen-i/049Venomoth.png" alt="Venomoth" /><br />049
+        Venomoth
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/050Diglett.png" alt="Diglett" /><br />050 Diglett
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/051Dugtrio.png" alt="Dugtrio" /><br />051 Dugtrio
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/052Meowth.png" alt="Meowth" /><br />052 Meowth
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/053Persian.png" alt="Persian" /><br />053 Persian
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/054Psyduck.png" alt="Psyduck" /><br />054 Psyduck
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/055Golduck.png" alt="Golduck" /><br />055 Golduck
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/056Mankey.png" alt="Mankey" /><br />056 Mankey
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/057Primeape.png" alt="Primeape" /><br />057
+        Primeape
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/058Growlithe.png" alt="Growlithe" /><br />058
+        Growlithe
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/059Arcanine.png" alt="Arcanine" /><br />059
+        Arcanine
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/060Poliwag.png" alt="Poliwag" /><br />060 Poliwag
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/061Poliwhirl.png" alt="Poliwhirl" /><br />061
+        Poliwhirl
+      </div>
+      <div class="mon water-fighting">
+        <img src="assets/gen-i/062Poliwrath.png" alt="Poliwrath" /><br />062
+        Poliwrath
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/063Abra.png" alt="Abra" /><br />063 Abra
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/064Kadabra.png" alt="Kadabra" /><br />064 Kadabra
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/065Alakazam.png" alt="Alakazam" /><br />065
+        Alakazam
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/066Machop.png" alt="Machop" /><br />066 Machop
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/067Machoke.png" alt="Machoke" /><br />067 Machoke
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/068Machamp.png" alt="Machamp" /><br />068 Machamp
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/069Bellsprout.png" alt="Bellsprout" /><br />069
+        Bellsprout
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/070Weepinbell.png" alt="Weepinbell" /><br />070
+        Weepinbell
+      </div>
+      <div class="mon grass-poison">
+        <img src="assets/gen-i/071Victreebel.png" alt="Victreebel" /><br />071
+        Victreebel
+      </div>
+      <div class="mon water-poison">
+        <img src="assets/gen-i/072Tentacool.png" alt="Tentacool" /><br />072
+        Tentacool
+      </div>
+      <div class="mon water-poison">
+        <img src="assets/gen-i/073Tentacruel.png" alt="Tentacruel" /><br />073
+        Tentacruel
+      </div>
+      <div class="mon rock-ground">
+        <img src="assets/gen-i/074Geodude.png" alt="Geodude" /><br />074 Geodude
+      </div>
+      <div class="mon rock-ground">
+        <img src="assets/gen-i/075Graveler.png" alt="Graveler" /><br />075
+        Graveler
+      </div>
+      <div class="mon rock-ground">
+        <img src="assets/gen-i/076Golem.png" alt="Golem" /><br />076 Golem
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/077Ponyta.png" alt="Ponyta" /><br />077 Ponyta
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/078Rapidash.png" alt="Rapidash" /><br />078
+        Rapidash
+      </div>
+      <div class="mon water-psychic">
+        <img src="assets/gen-i/079Slowpoke.png" alt="Slowpoke" /><br />079
+        Slowpoke
+      </div>
+      <div class="mon water-psychic">
+        <img src="assets/gen-i/080Slowbro.png" alt="Slowbro" /><br />080 Slowbro
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/081Magnemite.png" alt="Magnemite" /><br />081
+        Magnemite
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/082Magneton.png" alt="Magneton" /><br />082
+        Magneton
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/083Farfetchd.png" alt="Farfetch'd" /><br />083
+        Farfetch'd
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/084Doduo.png" alt="Doduo" /><br />084 Doduo
+      </div>
+      <div class="mon normal-flying">
+        <img src="assets/gen-i/085Dodrio.png" alt="Dodrio" /><br />085 Dodrio
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/086Seel.png" alt="Seel" /><br />086 Seel
+      </div>
+      <div class="mon water-ice">
+        <img src="assets/gen-i/087Dewgong.png" alt="Dewgong" /><br />087 Dewgong
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/088Grimer.png" alt="Grimer" /><br />088 Grimer
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/089Muk.png" alt="Muk" /><br />089 Muk
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/090Shellder.png" alt="Shellder" /><br />090
+        Shellder
+      </div>
+      <div class="mon water-ice">
+        <img src="assets/gen-i/091Cloyster.png" alt="Cloyster" /><br />091
+        Cloyster
+      </div>
+      <div class="mon ghost-poison">
+        <img src="assets/gen-i/092Gastly.png" alt="Gastly" /><br />092 Gastly
+      </div>
+      <div class="mon ghost-poison">
+        <img src="assets/gen-i/093Haunter.png" alt="Haunter" /><br />093 Haunter
+      </div>
+      <div class="mon ghost-poison">
+        <img src="assets/gen-i/094Gengar.png" alt="Gengar" /><br />094 Gengar
+      </div>
+      <div class="mon rock-ground">
+        <img src="assets/gen-i/095Onix.png" alt="Onix" /><br />095 Onix
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/096Drowzee.png" alt="Drowzee" /><br />096 Drowzee
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/097Hypno.png" alt="Hypno" /><br />097 Hypno
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/098Krabby.png" alt="Krabby" /><br />098 Krabby
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/099Kingler.png" alt="Kingler" /><br />099 Kingler
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/100Voltorb.png" alt="Voltorb" /><br />100 Voltorb
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/101Electrode.png" alt="Electrode" /><br />101
+        Electrode
+      </div>
+      <div class="mon grass-psychic">
+        <img src="assets/gen-i/102Exeggcute.png" alt="Exeggcute" /><br />102
+        Exeggcute
+      </div>
+      <div class="mon grass-psychic">
+        <img src="assets/gen-i/103Exeggutor.png" alt="Exeggutor" /><br />103
+        Exeggutor
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/104Cubone.png" alt="Cubone" /><br />104 Cubone
+      </div>
+      <div class="mon ground">
+        <img src="assets/gen-i/105Marowak.png" alt="Marowak" /><br />105 Marowak
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/106Hitmonlee.png" alt="Hitmonlee" /><br />106
+        Hitmonlee
+      </div>
+      <div class="mon fighting">
+        <img src="assets/gen-i/107Hitmonchan.png" alt="Hitmonchan" /><br />107
+        Hitmonchan
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/108Lickitung.png" alt="Lickitung" /><br />108
+        Lickitung
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/109Koffing.png" alt="Koffing" /><br />109 Koffing
+      </div>
+      <div class="mon poison">
+        <img src="assets/gen-i/110Weezing.png" alt="Weezing" /><br />110 Weezing
+      </div>
+      <div class="mon ground-rock">
+        <img src="assets/gen-i/111Rhyhorn.png" alt="Rhyhorn" /><br />111 Rhyhorn
+      </div>
+      <div class="mon ground-rock">
+        <img src="assets/gen-i/112Rhydon.png" alt="Rhydon" /><br />112 Rhydon
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/113Chansey.png" alt="Chansey" /><br />113 Chansey
+      </div>
+      <div class="mon grass">
+        <img src="assets/gen-i/114Tangela.png" alt="Tangela" /><br />114 Tangela
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/115Kangaskhan.png" alt="Kangaskhan" /><br />115
+        Kangaskhan
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/116Horsea.png" alt="Horsea" /><br />116 Horsea
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/117Seadra.png" alt="Seadra" /><br />117 Seadra
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/118Goldeen.png" alt="Goldeen" /><br />118 Goldeen
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/119Seaking.png" alt="Seaking" /><br />119 Seaking
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/120Staryu.png" alt="Staryu" /><br />120 Staryu
+      </div>
+      <div class="mon water-psychic">
+        <img src="assets/gen-i/121Starmie.png" alt="Starmie" /><br />121 Starmie
+      </div>
+      <div class="mon psychic-fairy">
+        <img src="assets/gen-i/122MrMime.png" alt="Mr. Mime" /><br />122 Mr.
+        Mime
+      </div>
+      <div class="mon bug-flying">
+        <img src="assets/gen-i/123Scyther.png" alt="Scyther" /><br />123 Scyther
+      </div>
+      <div class="mon ice-psychic">
+        <img src="assets/gen-i/124Jynx.png" alt="Jynx" /><br />124 Jynx
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/125Electabuzz.png" alt="Electabuzz" /><br />125
+        Electabuzz
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/126Magmar.png" alt="Magmar" /><br />126 Magmar
+      </div>
+      <div class="mon bug">
+        <img src="assets/gen-i/127Pinsir.png" alt="Pinsir" /><br />127 Pinsir
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/128Tauros.png" alt="Tauros" /><br />128 Tauros
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/129Magikarp.png" alt="Magikarp" /><br />129
+        Magikarp
+      </div>
+      <div class="mon water-flying">
+        <img src="assets/gen-i/130Gyarados.png" alt="Gyarados" /><br />130
+        Gyarados
+      </div>
+      <div class="mon water-ice">
+        <img src="assets/gen-i/131Lapras.png" alt="Lapras" /><br />131 Lapras
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/132Ditto.png" alt="Ditto" /><br />132 Ditto
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/133Eevee.png" alt="Eevee" /><br />133 Eevee
+      </div>
+      <div class="mon water">
+        <img src="assets/gen-i/134Vaporeon.png" alt="Vaporeon" /><br />134
+        Vaporeon
+      </div>
+      <div class="mon electric">
+        <img src="assets/gen-i/135Jolteon.png" alt="Jolteon" /><br />135 Jolteon
+      </div>
+      <div class="mon fire">
+        <img src="assets/gen-i/136Flareon.png" alt="Flareon" /><br />136 Flareon
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/137Porygon.png" alt="Porygon" /><br />137 Porygon
+      </div>
+      <div class="mon rock-water">
+        <img src="assets/gen-i/138Omanyte.png" alt="Omanyte" /><br />138 Omanyte
+      </div>
+      <div class="mon rock-water">
+        <img src="assets/gen-i/139Omastar.png" alt="Omastar" /><br />139 Omastar
+      </div>
+      <div class="mon rock-water">
+        <img src="assets/gen-i/140Kabuto.png" alt="Kabuto" /><br />140 Kabuto
+      </div>
+      <div class="mon rock-water">
+        <img src="assets/gen-i/141Kabutops.png" alt="Kabutops" /><br />141
+        Kabutops
+      </div>
+      <div class="mon rock-flying">
+        <img src="assets/gen-i/142Aerodactyl.png" alt="Aerodactyl" /><br />142
+        Aerodactyl
+      </div>
+      <div class="mon normal">
+        <img src="assets/gen-i/143Snorlax.png" alt="Snorlax" /><br />143 Snorlax
+      </div>
+      <div class="mon ice-flying">
+        <img src="assets/gen-i/144Articuno.png" alt="Articuno" /><br />144
+        Articuno
+      </div>
+      <div class="mon electric-flying">
+        <img src="assets/gen-i/145Zapdos.png" alt="Zapdos" /><br />145 Zapdos
+      </div>
+      <div class="mon fire-flying">
+        <img src="assets/gen-i/146Moltres.png" alt="Moltres" /><br />146 Moltres
+      </div>
+      <div class="mon dragon">
+        <img src="assets/gen-i/147Dratini.png" alt="Dratini" /><br />147 Dratini
+      </div>
+      <div class="mon dragon">
+        <img src="assets/gen-i/148Dragonair.png" alt="Dragonair" /><br />148
+        Dragonair
+      </div>
+      <div class="mon dragon-flying">
+        <img src="assets/gen-i/149Dragonite.png" alt="Dragonite" /><br />149
+        Dragonite
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/150Mewtwo.png" alt="Mewtwo" /><br />150 Mewtwo
+      </div>
+      <div class="mon psychic">
+        <img src="assets/gen-i/151Mew.png" alt="Mew" /><br />151 Mew
+      </div>
+    </div>
+  </body>
 </html>

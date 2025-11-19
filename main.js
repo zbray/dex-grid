@@ -7,10 +7,10 @@ const pokemon = [
     imagesrc: "assets/gen-i/001Bulbasaur.png",
   },
   {
-    natdex: "001",
+    natdex: "002",
     name: "Ivysaur",
-    type1: "",
-    type2: "",
+    type1: "grass",
+    type2: "poison",
     imagesrc: "assets/gen-i/002Ivysaur.png",
   },
   {
@@ -99,8 +99,8 @@ const pokemon = [
   },
 ];
 
-// for (var i = 0; i < pokemon.length; i++) {
-//   console.log(pokemon[i].natdex)
-// }
+for (var i = 0; i < pokemon.length; i++) {
+  console.log(pokemon[i].natdex)
+}
 
-{/* <div class="mon grass-poison"><img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur"><br>001 Bulbasaur</div> */}
+/* <div class="mon grass-poison"><img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur"><br>001 Bulbasaur</div> */
