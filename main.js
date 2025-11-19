@@ -113,7 +113,18 @@ function getBackground(type1, type2) {
 const dexCard = document.getElementById("dex");
 
 pokemon.forEach((p) => {
-  const bg = getBackground
+  const bg = getBackground(p.type1, p.type2);
+
+  const card = document.createElement("div");
+  card.classList.add("mon");
+  card.style.background = bg;
+
+  card.innerHTML = `
+    <img src="${p.imagesrc}" alt =${p.name}">
+    <br>${p.natdex} ${p.name}
+    `;
+
+  dexContainer.appendChild(card);
 });
 
 //old generator work
