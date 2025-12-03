@@ -465,7 +465,10 @@ pokemon.forEach((p) => {
 
   card.innerHTML = `
     <img src="${p.imagesrc}" alt ="${p.name}">
-    <br>${p.natdex} ${p.name}
+    <div class="monInfo">
+    <span class="monNumber">${p.natdex}</span>
+    <span class="monName">${p.name}</span>
+    </div>
     `;
 
   dexContainer.appendChild(card);
@@ -477,3 +480,7 @@ pokemon.forEach((p) => {
 // }
 
 /* <div class="mon grass-poison"><img src="assets/gen-i/001Bulbasaur.png" alt="Bulbasaur"><br>001 Bulbasaur</div> */
+
+// Left to Do:
+
+// Error handling for images

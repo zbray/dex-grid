@@ -127,9 +127,10 @@ body {
 }
 
 @media only screen and (max-width: 1015px) {
-}
+
 img {
   -webkit-filter: grayscale(100%) brightness(0);
   filter: grayscale(100%) brightness(0);
   opacity: 0.6;
+}
 }
